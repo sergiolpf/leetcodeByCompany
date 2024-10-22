@@ -1,5 +1,10 @@
 package smallestmissing
 
+/*
+Complexidade
+Tempo: O(n) - Onde N eh o tamanho do Array nums
+Espaco: O(v) - e o valor
+*/
 func findSmallestInteger(nums []int, value int) int {
 
 	frequency := make([]int, value)
